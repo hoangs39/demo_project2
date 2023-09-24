@@ -1,0 +1,28 @@
+
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .toggle-button {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .nav-normal {
+    display: none;
+  }
+
+  .nav-visible {
+    display: block;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+
+  .toggle-button {
+    display: none;
+  }
+}
